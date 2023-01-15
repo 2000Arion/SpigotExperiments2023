@@ -1,0 +1,19 @@
+name: SpigotExperimente2023
+version: '${project.version}'
+main: xyz.arion2000.spigot.Experimente
+api-version: 1.19
+authors: [ Arion2000 ]
+description: Some experiments with spigot :)
+website: arion2000.xyz
+commands:
+  hallo:
+    description: Hallo-Command
+  gm:
+    description: Ändere den Spielmodus von jemandem
+    permission: minecraft.command.gamemode
+  fly:
+    description: Schalte das Fliegen für dich an/aus
+    permission: minecraft.admin
+  heal:
+    description: Heile dich oder einen anderen Spieler
+    permission: minecraft.admin
